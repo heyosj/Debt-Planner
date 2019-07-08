@@ -39,3 +39,23 @@ function clearButton() {
     time.innerHTML = selectedIndex;
 }
 // main functionality part working still needs work on other functionailty
+
+
+// Navbar - On click, within or outside of navbar. Nav bar will hide.
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+$(function() {
+    $(document).click(function (event) {
+      $('.navbar-collapse').collapse('hide');
+    });
+});
+
+$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});
