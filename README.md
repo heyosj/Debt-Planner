@@ -8,7 +8,7 @@ I built this application to help me plan out monthly expenses. I also wanted to 
 
 ## Getting Started
 
-Start by going to the website itself at https://osj007.github.io/debt-planner/
+Start by going to the website itself at https://osj007.github.io/Debt-Planner/
 
 Once the page loads input the amount of debt you have, and directly underneath that input how many years you would want to pay it off.
 
